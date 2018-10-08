@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 CUDA_VISIBLE_DEVICES=0 python main.py \
-    --output_dir ./result_1/ \
-    --summary_dir ./result_1/log/ \
+    --output_dir ./result/ \
+    --summary_dir ./result/log/ \
     --mode test \
     --is_training False \
     --task SRResnet \
