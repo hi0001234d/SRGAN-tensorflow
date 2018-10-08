@@ -11,3 +11,9 @@ SRGAN_pre-trained/
 vgg19/
 result/
 .idea/
+experiment_SRResnet1/
+experiment_SRResnet1/log/
+data/datasetB5_LR/
+data/datasetB5_HR/
+data/test_LR_1/
+data/test_HR_1/
