@@ -17,3 +17,9 @@ data/datasetB5_LR/
 data/datasetB5_HR/
 data/test_LR_1/
 data/test_HR_1/
+experiment_SRResnet2/
+experiment_SRResnet2/log/
+data/datasetA1_LR/
+data/datasetA1_HR/
+data/datasetA2_LR/
+data/datasetA2_HR/
