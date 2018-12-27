@@ -23,3 +23,5 @@ data/datasetA1_LR/
 data/datasetA1_HR/
 data/datasetA2_LR/
 data/datasetA2_HR/
+*.png
+experiment_SRResnet*
