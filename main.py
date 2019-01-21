@@ -23,7 +23,8 @@ Flags.DEFINE_boolean('pre_trained_model', False, 'If set True, the weight will b
                                                  'the global_step will be initiallized from the checkpoint, too')
 Flags.DEFINE_string('pre_trained_model_type', 'SRResnet', 'The type of pretrained model (SRGAN or SRResnet)')
 Flags.DEFINE_boolean('is_training', True, 'Training => True, Testing => False')
-Flags.DEFINE_string('vgg_ckpt', './vgg19/vgg_19.ckpt', 'path to checkpoint file for the vgg19')
+#Flags.DEFINE_string('vgg_ckpt', './vgg19/vgg_19.ckpt', 'path to checkpoint file for the vgg19')
+Flags.DEFINE_string('vgg_ckpt', '', 'path to checkpoint file for the vgg19')
 Flags.DEFINE_string('task', None, 'The task: SRGAN, SRResnet')
 # The data preparing operation
 Flags.DEFINE_integer('batch_size', 16, 'Batch size of the input batch')
